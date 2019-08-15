@@ -1,0 +1,38 @@
+/* Element */
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/
+* {
+
+}
+
+/*Descendant Selector*/
+li a {
+    // selects all the anchor tags that are in an li 
+
+}
+Adjacent Selector
+
+// Will let us select a sibling
+
+Attribute Selector
+/* 
+*/
+a[href="http://www.google.com"] {
+    background: blue;
+}
+/* nth of type */
+/* ex: select 3rd ul */
+ul:nth-of-type(3){
+    background: purple;
+}

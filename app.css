@@ -1,0 +1,18 @@
+h1 {
+    color: rgba(0,200,100, 1);
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+    border: 5px solid purple;
+}
+
+h4 {
+    background: rgb(255, 100, 80);
+}
+
+body {  
+    background:pink;
+    /* background: url(https://wallpapercave.com/wp/Tb3g7Fv.jpg) ;
+    background-repeat: no;
+    background-size: cover;
+} */

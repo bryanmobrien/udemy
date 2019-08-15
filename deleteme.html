@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+<script>
+
+// for (let age = 0; age <=26; age++) {
+//     if (age < 0) {
+//         console.log( age + "Error. You can't have a negative age.");
+//     } 
+//     else if ( age % Math.sqrt(age) === 0) {
+//         console.log(age + "Your age is perfectly square!")
+//     }    
+//     else if (age == 21) {
+//        console.log(age + "Happy Birthday!");
+//         }
+//     else if ( age % 2 !=0) {
+//         console.log(age + "Your age is odd!")
+//     }
+//     else {
+//             console.log(age + "Come on in.")
+//         }
+// }
+date1 = moment().format('MMMM Do YYYY, h:mm:ss a');
+date2 = moment().format('dddd');                    // Tuesday
+date3 = moment().format("MMM Do YY");               // Aug 13th 19
+date4 = moment().format('YYYY [escaped] YYYY');     // 2019 escaped 2019
+date5 = moment().format();
+console.log(date1);
+console.log(date2);
+console.log(date3);
+console.log(date4);
+console.log(date5);
+
+</script>
+
+</body>
+</html> 
